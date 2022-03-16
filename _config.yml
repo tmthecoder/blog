@@ -21,12 +21,12 @@ timezone:
 # jekyll-seo-tag settings › https://github.com/jekyll/jekyll-seo-tag/blob/master/docs/usage.md
 # ↓ --------------------------
 
-title: Tejas's Tech Talk                          # the main title
+title: Tejas's Tech Tips # the main title
 
 tagline: A collection of my wonderful adventures with code   # it will display as the sub-title
 
 description: >-                        # used by seo meta and the atom feed
-  Find various guides, explanations, and posts about my many experiences while writing apps & software.
+  Find various guides, explanations, and posts about my many experiences writing apps & software.
 # fill in the protocol & hostname for your site, e.g., 'https://username.github.io'
 url: 'https://blog.tmthecoder.dev'
 
@@ -55,7 +55,7 @@ google_site_verification:               # fill in to your verification string
 # The end of `jekyll-seo-tag` settings
 
 google_analytics:
-  id:                 # fill in your Google Analytics ID
+  id: G-8W9RK5FSQF                # fill in your Google Analytics ID
   # Google Analytics pageviews report settings
   pv:
     proxy_endpoint:   # fill in the Google Analytics superProxy endpoint of Google App Engine
