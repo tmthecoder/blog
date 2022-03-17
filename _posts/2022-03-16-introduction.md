@@ -11,7 +11,7 @@ comments: false
 
 Hi! I'm Tejas. Welcome to my first blog post!
 
-Here's a little bit about me & my experience coding.
+Here's a little bit about me.
 
 ## Outside of the code
 
@@ -80,3 +80,9 @@ Since both of these post types can inspire productive conversation, questions, o
 ## Contact
 
 If you don't want to comment on a post publicly with some question, comemnt, or insight, feel free to email me [tejas@tmthecoder.dev](mailto://tejas@tmthecoder.dev).
+
+# Wrapping Up
+
+Well, there was a not-so-brief introduction of me & my aspirations with this blog.
+
+I have yet to figure out what my first post will be, but I'm hoping to have it up soon. Stay tuned!
