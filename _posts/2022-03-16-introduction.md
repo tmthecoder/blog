@@ -4,6 +4,7 @@ date: 2022-03-16 9:00:00 -4:00
 categories: [Introduction]
 tags: [introduction, about me]
 author: tmthecoder
+comments: false
 ---
 
 # About Me
@@ -48,9 +49,9 @@ In terms of stuff I've actually made, I've made a few open source packages (just
 
 # Where's this Going?
 
-So, now you know a bit about me & my code story and you're probably reading this thinking, "he's a really cool person, but what's up with the rest of the blog?" (if you're not, just let me have my moment).
+So, now you know a bit about me & my code story and you're probably reading this thinking, "He's a really cool person, but what's up with the rest of the blog?" (if you're not, just let me have my moment).
 
-I'm planning on having this be a generally lighthearted blog where I'll explain various experiences I've had while writing different pieces of software. I'm also planning on doing a few tutorial-style series. Here's my vision about the few types of posts I'll have:
+I'm planning on having this be a generally lighthearted blog (I've written _too much_ serious stuff in school, plus that gets boring quick) where I'll explain various experiences I've had while writing different pieces of software. I'm also planning on doing some tutorial-style series taht stemmed from my own experiences. Here's my vision about the few types of posts I'll have:
 
 ## Experiences
 
@@ -60,6 +61,22 @@ These posts will generally contain more diagrams and theoretical/logical explana
 
 A few examples of the posts (just off the top of my head, not committing to any of these __yet__) could be: "Planning out the structure of cClip", "Why I rewrote cClip Direct in Rust", or "Encryption Perfomance comparisons between Dart & Native code".
 
-All thsoe examples would probably have some diagram regarding structurs or graphs regarding performance implications. They wouldn't be too heavy on code (though might have some), but would be for the purpose of explaining my thought process, benchmarks, or design structure.
+All thsoe examples would probably have some diagrams regarding structure or graphs regarding performance implications. They wouldn't be too heavy on code (though might have some). The main purpose would be to explain my thought process, experiment, or design structure.
 
 ## Tutorials
+
+These posts will be in a series-style manner (for the long tutorials especially) that provide an in-depth explanation of doing some code- or shell-related task. Usually, my ideas for these tutorials will come from stuff I've found hard to do and/or recommendations from others.
+
+These will contain snippets of code (and/or shell commands) as well as availability of the full source-code on GitHub (when applicable). Depending on the length of the task at hand, the tutorial could be encompassed entirely in a single post, or may be spread across a series of posts. If across a series, I'll update each post with links to the next/previous posts when created.
+
+A few examples (again, no concrete committments here) could be: "Writing a fully cross-platform Flutter FFI plugin", "Interfacing with Rust libraries in Flutter/iOS/macOS/Electron", or "Creating an XOR-patched OpenVPN server".
+
+Like I mentioned before, the difficulty would range from beginner-level to relatively advanced. I'm hoping most of these posts will be easily replicable, especially since you'll have the finished source code to reference yours with.
+
+## Comments
+
+Since both of these post types can inspire productive conversation, questions, or insights, I'll be using [giscus](https://github.com/giscus/giscus) and allowing commenting on each post. Some posts, like this one won't have comments enabled.
+
+## Contact
+
+If you don't want to comment on a post publicly with some question, comemnt, or insight, feel free to email me [tejas@tmthecoder.dev](mailto://tejas@tmthecoder.dev).
