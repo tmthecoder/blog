@@ -49,3 +49,17 @@ In terms of stuff I've actually made, I've made a few open source packages (just
 # Where's this Going?
 
 So, now you know a bit about me & my code story and you're probably reading this thinking, "he's a really cool person, but what's up with the rest of the blog?" (if you're not, just let me have my moment).
+
+I'm planning on having this be a generally lighthearted blog where I'll explain various experiences I've had while writing different pieces of software. I'm also planning on doing a few tutorial-style series. Here's my vision about the few types of posts I'll have:
+
+## Experiences
+
+For experiences, I'm envisioning the posts will be like an explanatory piece about a problem I may have encountered, an interesting path I had to take for some task/issue, or an explanation of why I decided to do something.
+
+These posts will generally contain more diagrams and theoretical/logical explanations around their underlying task the post is about. It'll be relatively low on actual code, since it's more a description of my thought and planning processes.
+
+A few examples of the posts (just off the top of my head, not committing to any of these __yet__) could be: "Planning out the structure of cClip", "Why I rewrote cClip Direct in Rust", or "Encryption Perfomance comparisons between Dart & Native code".
+
+All thsoe examples would probably have some diagram regarding structurs or graphs regarding performance implications. They wouldn't be too heavy on code (though might have some), but would be for the purpose of explaining my thought process, benchmarks, or design structure.
+
+## Tutorials
