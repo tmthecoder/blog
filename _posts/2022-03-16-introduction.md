@@ -79,7 +79,7 @@ Since both of these post types can inspire productive conversation, questions, o
 
 ## Contact
 
-If you don't want to comment on a post publicly with some question, comemnt, or insight, feel free to email me [tejas@tmthecoder.dev](mailto://tejas@tmthecoder.dev).
+If you don't want to comment on a post publicly with some question, comemnt, or insight, feel free to email me [tejas@tmthecoder.dev](mailto:tejas@tmthecoder.dev).
 
 # Wrapping Up
 
