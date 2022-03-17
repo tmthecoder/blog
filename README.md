@@ -1,4 +1,4 @@
-Tejas's Pretty Cool Dev Blog
+# Tejas's Pretty Cool Dev Blog
 
 ## License
 
