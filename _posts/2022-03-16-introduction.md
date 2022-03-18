@@ -47,11 +47,13 @@ I've also reached the point where all I need is an understanding of the project 
 
 In terms of stuff I've actually made, I've made a few open source packages (just look through my [GitHub](https://github.com/tmthecoder)). I've also published a few apps on the iOS, Android, and macOS stores. My favorite (and most recent) is [cClip](https://cclip.app/).
 
+If you want to see some more about my current projects, take a look at [my projects page](https://tmthecoder.dev/#/projects/)
+
 # Where's this Going?
 
 So, now you know a bit about me & my code story and you're probably reading this thinking, "He's a really cool person, but what's up with the rest of the blog?" (if you're not, just let me have my moment).
 
-I'm planning on having this be a generally lighthearted blog (I've written _too much_ serious stuff in school, plus that gets boring quick) where I'll explain various experiences I've had while writing different pieces of software. I'm also planning on doing some tutorial-style series taht stemmed from my own experiences. Here's my vision about the few types of posts I'll have:
+I'm planning on having this be a generally lighthearted blog (I've written _too much_ serious stuff in school, plus that gets boring quick) where I'll explain various experiences I've had while writing different pieces of software. I'm also planning on doing some tutorial-style series that stemmed from my own experiences. Here's my vision about the few types of posts I'll have:
 
 ## Experiences
 
