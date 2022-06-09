@@ -1,11 +1,16 @@
 ---
 title: 'XOR-Patched VPN - Part 1: The Server'
 date: 2022-05-8 4:00:00 -4:00
-categories: [Tutorials]
+categories: [Tutorials, XOR-patched VPN Server]
 tags: [vpn, xor-patched, openvpn, obfuscated, tutorial]
 author: tmthecoder
 comments: true
 ---
+
+# Other Parts
+
+- [Part 2](../part-2-the-patched-desktop-clients/): The second part of this wonderful guide. Goes into an in-depth guide on building or finding the desktop clients (macOS, Linux, Windows) so you can actually connect to this VPN server from any Desktop Platform.
+- Part 3: **COMING SOON!** The third part of this guide. Focuses on mobile clients. We'll be going into depth on how to build the Android client, and I'll provide information on the iOS client.
 
 # Summary
 
