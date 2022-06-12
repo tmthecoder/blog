@@ -10,7 +10,7 @@ comments: true
 # Other Parts
 
 - [Part 1](../part-1-building-a-xor-patched-vpn-server/): A guide on building the actual VPN server. This explains a lot of the terminology too, so make sure to give it a read if you haven't since this guide will definitely build off of it in some areas.
-- Part 3: **COMING SOON!** The third part of this guide. Focuses on mobile clients. We'll be going into depth on how to build the Android client, and I'll provide information on the iOS client.
+- [Part 3](../part-3-the-patched-mobile-clients/): The third part of this guide. Focuses on mobile clients. We'll be going into depth on how to build the Android client, and I'll provide information on the iOS client.
 
 # Summary
 
