@@ -1,6 +1,6 @@
 ---
 title: 'XOR-Patched VPN - Part 2: The Desktop Clients'
-date: 2022-05-30 22:00:00 -4:00
+date: 2022-06-12 27:00:00 -4:00
 categories: [Tutorials, XOR-patched VPN Server]
 tags: [vpn, xor-patched, openvpn, obfuscated, tutorial]
 author: tmthecoder
