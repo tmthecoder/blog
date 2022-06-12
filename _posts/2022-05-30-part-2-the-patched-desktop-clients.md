@@ -18,9 +18,21 @@ Welcome to the second part of my three-part XOR-Patched VPN Guide. This guide wi
 
 This guide will be like the last one, but sectioned a little differently so you only follow what you need to. The headings will be per-platform, so scroll to the one you need and follow from there!
 
-# Platform Agnostic setup
+# Platform Agnostic Setup
 
+Before I dive into the specifics of each platform's OpenVPN client setup, there's one step that needs to be taken regardless of the client's platform: moving the `.ovpn` file from your OpenVPN server to the client machine. Many of you may know how to do this already, but I'll include a quick piece on how to do this if you haven't done it before or may not know/remember how to.
 
+We're going to use the `scp` command to do this. I'm hoping you used `ssh` to execute the commands on the last turorial since that would speed up your time going from the guide to executing the terminal commands or filling in the scripts _a lot_. `scp` uses the same underlying port as SSH, but is instead made for copying files between machines.
+
+All you need to do is type in `scp username@server-address:path/to/remote/file path/to/local/file`. So, if I wanted to transfer the file named `tejas.ovpn`{: .filepatg} to my local computer at `Downloads/tejas.ovpn`{: .filepath}, I'd type in the following:
+
+```terminal
+scp my-username@my-server-address:easy-rsa-master/easyrsa3/pki/client/tejas.ovpn Downloads/tejas.ovpn
+```
+> Remember that `my-username` and `my-server-address` are the username and server address that you used when (hopefully) SSH'ing into the machine for the last guide's contents. The `easy-rsa-master/...` path was where we made the configurations last time.
+{: .prompt-info}
+
+Now that that's all done, let's get started on actually making these profiles useful!
 
 # macOS
 
@@ -142,7 +154,7 @@ So, let's get started!
 We'll start off by downloading a few needed dependencies for the build:
 
 ```terminal
-sudo apt install git mingw-w64 git man2html dos2unix nsis osslsigncode
+sudo apt install mingw-w64 git man2html dos2unix nsis osslsigncode unzip make gcc libssl-dev liblzo2-dev liblz4-dev libpam0g-dev autoconf libtool docutils-common
 ```
 > If your Linux Machine isn't on Ubuntu, you may need to install additional/other dependencies using your native package manager
 {: .prompt-warning}
@@ -213,4 +225,4 @@ You can then connect and everything _should_ work and you'll be browsing the web
 
 # Final Remarks
 
-Congratulations! You built your own XOR-patched OpenVPN clients (except for mac)! There is a discussion available below if you have any questions, so feel free to ask there or email me at [tmthecoder@gmail.com](mailto:tmthecoder@gmail.com). Thanks for reading and I hope you learned something!
+Congratulations! You've made the VPN profiles that we made in the last guide useful by configuring your own XOR-patched OpenVPN clients! There is a discussion available below if you have any questions, so feel free to ask there or email me at [tmthecoder@gmail.com](mailto:tmthecoder@gmail.com). Thanks for reading and I hope you learned something!
