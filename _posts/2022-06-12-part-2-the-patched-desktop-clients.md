@@ -14,7 +14,7 @@ comments: true
 
 # Summary
 
-Welcome to the second part of my three-part XOR-Patched VPN Guide. This guide will focus on building or donwloading clients for each of the three Desktop platforms (macOS, Linux, and Windows). I'll start with macOS since it's the simplest. We'll use [Tunnelblick](https://tunnelblick.net) since it already has support for XOR-patched VPN servers. Linux is next since it's of relatively little difficulty since you've already done most of the work for it before (the process is almost exactly the same as setting up the server). Last is going to be windows since it's easily the most time-consuming and slightly in-depth, though not too much.
+Welcome to the second part of my three-part XOR-Patched VPN Guide. This guide will focus on building or downloading clients for each of the three Desktop platforms (macOS, Linux, and Windows). I'll start with macOS since it's the simplest. We'll use [Tunnelblick](https://tunnelblick.net) since it already has support for XOR-patched VPN servers. Linux is next since it's of relatively little difficulty since you've already done most of the work for it before (the process is almost exactly the same as setting up the server). Last is going to be windows since it's easily the most time-consuming and slightly in-depth, though not too much.
 
 This guide will be like the last one, but sectioned a little differently so you only follow what you need to. The headings will be per-platform, so scroll to the one you need and follow from there!
 
@@ -217,7 +217,7 @@ Once it finishes, you should have a file in that same directory named `openvpn-i
 
 Now that you have that build `.exe` file, it's time to transfer it to your Windows machine.
 
-Once you do that, double click it (if a warning prompt comes up, you can safely ignore/proceed since you built the package), and go through the installer.
+Once you do that, double click it (if a warning prompt comes up, you can safely ignore/proceed since you built the package) and go through the installer.
 
 Once it finishes, you can delete that `.exe` file as another will show up, which is the actual OpenVPN client. Open that application and use the UI to import the `.ovpn` profile you transferred from the VPN server earlier.
 
